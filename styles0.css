@@ -1,15 +1,15 @@
 /**
  *
- * Hey. My name's Samuel Reed. I'm CTO of BitMEX.com and frequent
- * open source contributor.
  *
- * I build interactive websites.
+ * This CSS is being injected into a DOM style element
+ * and written in this pre element simultaneously.
  *
- * How about some live coding?
+ *
+ *
  */
 
 /**
- * Let's begin. We start by animating... well, everything.
+ * Confused? Watch!
  */
 
 * {
@@ -17,10 +17,10 @@
 }
 
 /**
- * That didn't do much. But you'll see.
+ * 
  *
- * Black on white is really boring,
- * so let's do something about it.
+ * 
+ * 
  */
 
 html {
@@ -28,7 +28,7 @@ html {
 }
 
 /***
- * Hold on...
+ * 
  */
 
 pre, a {
@@ -36,11 +36,11 @@ pre, a {
 }
 
 /**
- * That's better. Sorry about your eyes.
+ * 
  *
- * Working in this big empty space is tough.
+ * 
  *
- * I'm going to make a nice area for us to work in.
+ * 
  */
 
 pre:not(:empty) {
@@ -58,8 +58,8 @@ pre:not(:empty) {
 }
 
 /**
- * Okay. We're going to start filling up the screen.
- * Let's get ready to do some work.
+ * 
+ * 
  */
 
 #style-text {
@@ -68,8 +68,8 @@ pre:not(:empty) {
 }
 
 /**
- * This is good, but all the text is white!
- * Let's make it even more readable.
+ * 
+ * 
  */
 
 .comment       { color: #857F6B; font-style: italic; }
@@ -80,8 +80,8 @@ pre:not(:empty) {
 .value.px      { color: #F92772; }
 
 /**
- * Now we're getting somewhere.
- * Time to get a little perspective.
+ * 
+ * 
  */
 
 body {
@@ -95,8 +95,8 @@ body {
 }
 
 /**
- * So, let's talk projects. That's why you're here, right?
- * I can't imagine you'd come just to see the pretty colors.
+ * 
+ * 
  */
 
 pre:not(#style-text) {
