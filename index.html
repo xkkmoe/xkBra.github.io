@@ -1,61 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>kawaii.online</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="ico/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
-        <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/css.css">
-    </head>
-    <body>
-        <div id="wrapper">
-            <!-- <h1>Kawaii.onlie</h1> -->
-            <h2>行过许多地方的桥<br/>看过许多次数的云<br/>喝过许多种类的酒<br/>却只爱过一个正当最好年龄的人<br/></h2>
-            <p>🧡</p>
-            <!-- <h2><div id="Clock"></div></h2> -->
-            
-            <!-- <p><a href="#" target="_blank">blog&nbsp</a></p> -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>xkOvO (@xkOvO)</title>
+    <meta http-equiv="x-dns-prefetch-control " content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="suka">
+        <div class="a">
+            <div class="b">
+                <div class="c">
+                    <div>
+                        <div class="d">
+                            <div class="e"><img src="C:\Users\xkBra\Pictures\65038541_p01.jpg"></div>
+                            <div class="f">
+                                <h1 class="g">xk&nbsp;<small>(OvO)</small></h1>
+                                <p>In me the tiger sniffs the rose</p>
+                                <ul class="h">
+                                    <li><a href="" target="_blank">zzz</a></li>
+                                    <li><a href="" target="_blank" rel="noopener noreferrer">zzz</a></li>
+                                    <li><a href="" target="_blank" rel="nofollow noopener noreferrer">zzz</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="i">
+                    <div class="j">Copyright © 2018 <a href="/">xkOvO</a>. All rights reserved.</div>
+                </div>
+            </footer>
         </div>
-        <!-- <canvas></canvas> -->
-        <canvas id="screen"></canvas>
-        <script src="js/main.js"></script>
-        <script src="js/WordClock.js"></script>
-        <!-- <script src="js/Evan.js"></script> -->
-        <!-- <script src="js/clock.js"></script> -->
-        <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
-        <script type="text/javascript">
-            /* 鼠标特效 */
-            var a_idx = 0;
-            jQuery(document).ready(function($) {
-               $("body").click(function(e) {
-                   var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
-                   var $i = $("<span/>").text(a[a_idx]);
-                   a_idx = (a_idx + 1) % a.length;
-                   var x = e.pageX,
-                   y = e.pageY;
-                   $i.css({
-                       "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
-                       "top": y - 20,
-                       "left": x,
-                       "position": "absolute",
-                       "font-weight": "bold",
-                       "color": "#82D900"
-                   });
-                   $("body").append($i);
-                   $i.animate({
-                       "top": y - 180,
-                       "opacity": 0
-                   },
-                   1500,
-                   function() {
-                       $i.remove();
-                   });
-               });
-            });
-        </script>
-    </body>
+    </div>
+</body>
+
 </html>
